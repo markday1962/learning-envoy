@@ -9,7 +9,7 @@ items:
     name: status
   spec:
     rules:
-    - host: envoy.<your-domain>
+    - host: envoy.test.aistemos.com
       http:
         paths:
         - backend:
